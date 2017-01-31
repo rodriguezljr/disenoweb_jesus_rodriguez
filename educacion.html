@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Educación evaluación final</title>
+  </head>
+  <body>
+    <img src="images/logo.svg" width="180" />
+    <h1>Hoja de vida</h1>
+    <h2>Jesús Rodríguez</h2>
+    <ul>
+      <li><a href="index.html">Inicio</a></li>
+      <li><a href="educacion.html">Educación</a></li>
+      <li><a href="experiencia.html">Experiencia</a></li>
+    </ul>
+    <h2>Educación</h2>
+    <table border="1">
+      <tr align="center">
+        <td>Título</td>
+        <td>Año</td>
+        <td>Institución</td>
+        <td>Lugar</td>
+        <td>¿Culminó?</td>
+      </tr>
+      <tr>
+        <td>Licenciatura en Administración de Empresas</td>
+        <td>2004</td>
+        <td>Gran Mariscal de Ayacucho</td>
+        <td>Venezuela</td>
+        <td>Si</td>
+      </tr>
+      <tr>
+        <td>Maestría en Ciencias Administrativas mención Finanzas</td>
+        <td>2010</td>
+        <td>Universidad de Oriente</td>
+        <td>Venezuela</td>
+        <td>Si</td>
+      </tr>
+    </table>
+    <h3>Agregar Competencias</h3>
+    <form name="agregar competencias" method="post">
+      <label for="Titulo"><strong>Título: </strong></label>
+        <input type="text" name="Titulo" required>
+        <br><br>
+      <label for="date"><strong>Año: </strong></label>
+      <select name="date">
+        <option value="2016">2016</option>
+        <option value="2015">2015</option>
+        <option value="2014">2014</option>
+        <option value="2013">2013</option>
+        <option value="2012">2012</option>
+        <option value="2011">2011</option>
+      </select>
+      <br><br>
+      <label for="Institucion"><strong>Institución: </strong></label>
+        <input type="text" name="Institucion" required>
+       <br><br>
+       <label for="Lugar"><strong>Lugar: </strong></label>
+        <input type="text" name="Lugar" size="60" maxlength="60">
+        <br><br>
+        <label for="Culmino">¿Culminó?</label>
+        <input type="radio" name="si" value="si"><label for="si">Si</label> <input type="radio" name="No" value="No"><label for="No">No</label>
+        <br><br>
+        <input type="submit" name="Enviar" value="Enviar">
+    </form>
+  </body>
+  <footer>
+   <p>Sitio web desarrollado por: Jesús Rodríguez</p>
+   <ul>
+     <li><strong>Email:</strong> <a mailto href="mailto:rodriguezljr@outlook.com">rodriguezljr@outlook.com</a></li>
+     <li><strong>teléfono:</strong> +56 9 5136 4540</li>
+     <li><strong>Dirección:</strong> Santiago de Chile</li>
+   </ul>
+   <p>Copyright (c) 2016 Jesús Rodríguez Todos los Derechos Reservados.</p>
+  </footer>
+</html>
